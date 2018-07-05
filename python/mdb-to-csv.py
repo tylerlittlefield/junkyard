@@ -7,7 +7,7 @@ import sys
 register_openers()
 
 # Use multipart encoding for the input files
-datagen, headers = multipart_encode({ 'files[]': open('/Users/tylerlittlefield/Desktop/Alexandria/data/backup/Alexandria 2018/trees.mdb', 'rb')})
+datagen, headers = multipart_encode({ 'files[]': open('/path/to/trees.mdb', 'rb')})
 
 # Create the request object
 request = urllib2.Request('https://www.rebasedata.com/api/v1/convert', datagen, headers)
