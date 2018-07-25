@@ -1,0 +1,1 @@
+INSERT INTO var1 SELECT * FROM var2;
