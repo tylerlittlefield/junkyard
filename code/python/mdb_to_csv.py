@@ -1,4 +1,5 @@
 # Using Python 2.7.10
+# More here: https://www.rebasedata.com
 
 from poster.encode import multipart_encode
 from poster.streaminghttp import register_openers
